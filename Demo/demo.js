@@ -1,3 +1,3 @@
 window.addEvent('domready', function() {
-	$('demo').fade('in');
+	$('demo').set('opacity',0).fade('in');
 })
