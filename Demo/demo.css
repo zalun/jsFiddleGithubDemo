@@ -1,5 +1,7 @@
+body {
+	font-family: Helvetica, Verdana
+}
 #demo { 
 	padding: 7px 10px;
 	border: 1px solid #999;
-	font-family: Helvetica, Verdana
 }
