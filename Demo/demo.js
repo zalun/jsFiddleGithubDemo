@@ -5,7 +5,7 @@ window.addEvent('domready', function() {
 		method: 'post',
 		update: 'demo',
 		onSuccess: function(response) {
-			$('target_div').highlight();
+			$('demo').highlight();
 		}
 	}).send();
 })
