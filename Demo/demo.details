@@ -1,10 +1,9 @@
 /*
 ---
-name: The Name of the Demo
-description: Some description, please keep it in one line
+name: Request.HTML - jsFiddle/Github integration demo
+description: jsFiddle demo hosted on Github using HTML Request to get Ajax data
 authors:
-  - John Doe
-  - Jan Wisniewski
+  - Piotr Zalewa
 ...
 */
 

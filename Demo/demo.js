@@ -1,3 +1,11 @@
 window.addEvent('domready', function() {
-	$('demo').set('opacity',0).fade('in');
+	new Request.HTML({
+		url: '/gh/get/response.html/zalun/jsFiddleGithubDemo/tree/master/Demo/',
+		data: {'delay': 1},
+		method: 'post',
+		update: 'demo',
+		onSuccess: function(response) {
+			$('target_div').highlight();
+		}
+	}).send();
 })
