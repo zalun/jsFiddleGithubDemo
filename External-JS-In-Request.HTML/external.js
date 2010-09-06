@@ -1,1 +1,1 @@
-$('result').set('text', 'Loaded from external JS');
+$('result').set('html', '<p>Loaded from external JS</p>');
