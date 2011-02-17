@@ -5,8 +5,8 @@ description: jsFiddle demo hosted on Github using HTML Request to get Ajax data
 authors:
   - Piotr Zalewa
 resources:
-  - http://some.url.com/some/file.js
-  - http://some.url.com/other/file.css
+  - /js/empty.js
+  - /css/normalize.css
 ...
 */
 
